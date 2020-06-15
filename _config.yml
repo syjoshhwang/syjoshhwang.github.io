@@ -20,8 +20,8 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://syjoshhwang.github.io/" # the base hostname & protocol for your site
-cover: "/assets/library.jpg"
-logo: "/assets/initial.png"
+cover: "/assets/italy.jpg"
+logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
@@ -79,7 +79,7 @@ social:
   - name: Twitter
     icon: twitter
     username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
+    url:
     desc: Follow me on Twitter
     share: true
 
