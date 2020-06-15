@@ -11,7 +11,7 @@ exclude:
 # Site settings
 title: Josh's Study Note
 subtitle: "하루하루 공부한 내용을 기록하는 곳"
-email: blcentra@gmail.com
+email: syjoshhwang@gmail.com
 name: Josh Hwang
 description: >
   공부한 내용들을 정리하기 위해서 만든 블로그입니다.
@@ -20,8 +20,8 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://syjoshhwang.github.io/" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
-logo: "/assets/logo.png"
+cover: "/assets/library.jpg"
+logo: "/assets/Name Logo.png"
 
 # Build settings
 markdown: kramdown
