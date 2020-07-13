@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>블로그 포스팅 테스트 해보기</title>
+  <meta name="description" content="This is a test.블로그의 여러 기능들을 테스트 해보자!">
+  
+  <meta name="author" content="Josh Hwang">
+  <meta name="copyright" content="&copy; Josh Hwang 2020">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="This is a test.블로그의 여러 기능들을 테스트 해보자!" />
+  <meta property="og:url" content="http://localhost:4000/jekyll/2020/07/08/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%95%B4%EB%B3%B4%EA%B8%B0.html">
+  <meta property="og:site_name" content="Josh's Study Note" />
+  <meta property="og:title" content="블로그 포스팅 테스트 해보기" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://localhost:4000/assets/instacode.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="블로그 포스팅 테스트 해보기">
+  <meta name="twitter:description" content="This is a test.블로그의 여러 기능들을 테스트 해보자!">
+  <meta name="twitter:image" content="http://localhost:4000/assets/instacode.png">
+  <meta name="twitter:url" content="http://localhost:4000/jekyll/2020/07/08/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%95%B4%EB%B3%B4%EA%B8%B0.html">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/jekyll/2020/07/08/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%95%B4%EB%B3%B4%EA%B8%B0.html">
+	<link rel="alternate" type="application/rss+xml" title="Josh's Study Note" href="http://localhost:4000/feed.xml" />
+	
+	<!-- Tooltips -->
+	<script type="text/javascript">
+		window.tooltips = []
+	</script>
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/initial.png" alt="Josh's Study Note">
+      
+    </a>
+    <div class="site-category">
+    			<ul class='cat1'>
+            <li><a href="/about/">About</a>
+    				<li><a href="/tag/Data Science">Data Science</a>
+    					<ul>
+    						<li><a href="/category/machine-learning/">ML</a></li>
+                <li><a href="/category/deep-learning/">DL</a></li>
+                <li><a href="/category/reinforcement-learning/">RL</a></li>
+                <li><a href="/category/Statistics/">Statistics</a></li>
+                <li><a href="/category/Visualization">Visualization</a></li>
+    					</ul>
+    				</li>
+
+    				<li><a href="/tag/Mathematics">Mathematics</a>
+    					<ul>
+    						<li><a href="/category/Linear Algebra/">Linear Algebra</a></li>
+                <li><a href="/category/Calculus">Calculus</a></li>
+    					</ul>
+    				</li>
+
+    				<li><a href="tag/projects/">Projects</a>
+
+    		</div>
+</header>
+
+
+
+
+
+
+<div class="site-category">
+			<ul class='cat1'>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Python</a>
+					<ul>
+						<li><a href="#">Python-crawler</a></li>
+						<li><a href="#">Django</a></li>
+						<li><a href="#">Tensorflow</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#">Data Science</a>
+					<ul>
+						<li><a href="#">Machine Learning</a></li>
+					</ul>
+				</li>
+
+				<li><a href="/tag/Development Environment/">Development Enviroment</a>
+					<ul>
+						  <li><a href="/category/Github Blog">Github Blog</a></li>
+						  <li><a href="/category/Git">Git</a></li>
+						  <li><a href="/category/Docker">Docker</a></li>
+
+					</ul>
+				</li>
+
+				<li><a href="#">Android</a></li>
+
+			</ul>
+		</div>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container has-cover" style="background-image: url(/assets/instacode.png);">
+  <div class="scrim has-cover">
+    <header class="post-header">
+      <h1 class="title">블로그 포스팅 테스트 해보기</h1>
+      <p class="info">by <strong>Josh Hwang</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+
+
+<section class="post-meta">
+  <div class="post-date">July 8, 2020</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/Jekyll">Jekyll</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p>This is a test.
+블로그의 여러 기능들을 테스트 해보자!</p>
+
+<h2 id="줄-넣기">줄 넣기</h2>
+
+<p>줄 넣기는 <code>&lt;hr&gt;</code>를 추가해준다</p>
+
+<hr />
+
+<h2 id="문단-나눠쓰기">문단 나눠쓰기</h2>
+
+<p>문단 나눠쓰기는 처음과 끝에 <code>&lt;p&gt;</code>와<code>&lt;/p&gt;</code>를 추가해준다</p>
+
+<p>블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. 블로그 테스트해보기. </p>
+
+<p>너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. 너무재미있다. </p>
+
+<hr />
+
+<h2 id="코드-하이라이트-추가해보기">코드 하이라이트 추가해보기</h2>
+
+<p>하이라이트 하고싶은 부분의 처음과 끝에 #’<code>'와 '</code>‘를 추가해준다</p>
+
+<p>Ex)<code>print('hello, world!')</code></p>
+
+<hr />
+
+<h2 id="코드-snippets-추가해보기">코드 Snippets 추가해보기</h2>
+
+<p><code class="highlighter-rouge">{% highlight &lt;language&gt; %}</code> 형식의 태그를 이용해 syntax 하이라이팅을 추가한다.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+   <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span></code></pre></figure>
+
+<hr />
+
+<h2>링크 추가하기</h2>
+
+<p>‘[변수명]: 사이트’ 형식으로 설정한 후에 본문에서 [본문][링크 참조 변수] 로 인용</p>
+
+<p>예를 들면 맨 아래에
+<code>[jekyll]:      http://jekyllrb.com</code>라고 추가해주고
+<code>[jekyll 자세히 보기][jekyll]</code>라고 기재하면 아래와 같이 보인다.</p>
+
+<p><a href="http://jekyllrb.com">jekyll 자세히 보기</a></p>
+
+<hr />
+
+<h2>블럭 인용구 추가해보기</h2>
+
+<p><code>&gt;</code>를 추가해준다.</p>
+
+<blockquote>
+  <p>“Blockquotes will be indented, italicized, and given a subdued light gray font. These are good for side comments not directly related to your content, or long quotations from external sources.” - Some Smart Guy</p>
+</blockquote>
+
+<hr />
+
+<h2 id="이미지-추가해보기">이미지 추가해보기</h2>
+
+<p>Markdown 문법 사용</p>
+
+<p><img src="/assets/post_images/Figure_1.png" alt="title" width="50%" height="50%" /></p>
+
+<p>HTML 사용시</p>
+
+<p><img src="/assets/post_images/Figure_1.png" width="50%" height="50%" /></p>
+
+<p>lightbox사용해보기</p>
+
+<p><a href="/assets/post_images/Figure_1.png" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
+  <img src="/assets/post_images/Figure_1.png" title="Check out the Falcon 9 from SpaceX" width="300" height="300" />
+</a></p>
+
+<p><a href="/assets/post_images/cat.jpg" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
+  <img src="/assets/post_images/cat.jpg" title="Check out the Falcon 9 from SpaceX" width="100" height="100" />
+</a></p>
+
+<p><a href="/assets/post_images/cat.jpg" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
+  <img src="/assets/post_images/cat.jpg" title="Check out the Falcon 9 from SpaceX" />
+</a></p>
+
+<p><a href="/assets/post_images/배경만바뀌었어요.jpeg" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
+  <img src="/assets/post_images/cat.jpg" title="Check out the Falcon 9 from SpaceX" />
+</a></p>
+
+<p>To create the link that’ll launch the lightbox,
+add <code>data-lightbox</code>
+and <code>data-title</code> attributes to an <code>&lt;a&gt;</code> tag around your <code>&lt;img&gt;</code> tag.</p>
+
+<p>윗줄에서의 href는 페이지에서 보여지는 크기이며, title은 클릭해서 확대했을때의 이미지 타이틀이 됨.</p>
+
+
+</article>
+
+
+
+<section class="tags">
+  <strong>Tags:</strong> <a href="/tag/test">test</a>
+</section>
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+      <a href="//twitter.com/share?text=%EB%B8%94%EB%A1%9C%EA%B7%B8+%ED%8F%AC%EC%8A%A4%ED%8C%85+%ED%85%8C%EC%8A%A4%ED%8A%B8+%ED%95%B4%EB%B3%B4%EA%B8%B0&url=http%3A%2F%2Flocalhost%3A4000%2Fjekyll%2F2020%2F07%2F08%2F%25EB%25B8%2594%25EB%25A1%259C%25EA%25B7%25B8-%25ED%258F%25AC%25EC%258A%25A4%25ED%258C%2585-%25ED%2585%258C%25EC%258A%25A4%25ED%258A%25B8-%25ED%2595%25B4%25EB%25B3%25B4%25EA%25B8%25B0.html&via=TheBenCentra"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+        <i class="fa fa-twitter-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=%EB%B8%94%EB%A1%9C%EA%B7%B8+%ED%8F%AC%EC%8A%A4%ED%8C%85+%ED%85%8C%EC%8A%A4%ED%8A%B8+%ED%95%B4%EB%B3%B4%EA%B8%B0&u=http%3A%2F%2Flocalhost%3A4000%2Fjekyll%2F2020%2F07%2F08%2F%25EB%25B8%2594%25EB%25A1%259C%25EA%25B7%25B8-%25ED%258F%25AC%25EC%258A%25A4%25ED%258C%2585-%25ED%2585%258C%25EC%258A%25A4%25ED%258A%25B8-%25ED%2595%25B4%25EB%25B3%25B4%25EA%25B8%25B0.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fjekyll%2F2020%2F07%2F08%2F%25EB%25B8%2594%25EB%25A1%259C%25EA%25B7%25B8-%25ED%258F%25AC%25EC%258A%25A4%25ED%258C%2585-%25ED%2585%258C%25EC%258A%25A4%25ED%258A%25B8-%25ED%2595%25B4%25EB%25B3%25B4%25EA%25B8%25B0.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      <a href="//plus.google.com/share?title=%EB%B8%94%EB%A1%9C%EA%B7%B8+%ED%8F%AC%EC%8A%A4%ED%8C%85+%ED%85%8C%EC%8A%A4%ED%8A%B8+%ED%95%B4%EB%B3%B4%EA%B8%B0&url=http%3A%2F%2Flocalhost%3A4000%2Fjekyll%2F2020%2F07%2F08%2F%25EB%25B8%2594%25EB%25A1%259C%25EA%25B7%25B8-%25ED%258F%25AC%25EC%258A%25A4%25ED%258C%2585-%25ED%2585%258C%25EC%258A%25A4%25ED%258A%25B8-%25ED%2595%25B4%25EB%25B3%25B4%25EA%25B8%25B0.html"
+        onclick="window.open(this.href, 'google-plus-share', 'width=550,height=255');return false;">
+        <i class="fa fa-google-plus-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+      <a href="//www.pinterest.com/pin/create/button/?description=%EB%B8%94%EB%A1%9C%EA%B7%B8+%ED%8F%AC%EC%8A%A4%ED%8C%85+%ED%85%8C%EC%8A%A4%ED%8A%B8+%ED%95%B4%EB%B3%B4%EA%B8%B0&url=http%3A%2F%2Flocalhost%3A4000%2Fjekyll%2F2020%2F07%2F08%2F%25EB%25B8%2594%25EB%25A1%259C%25EA%25B7%25B8-%25ED%258F%25AC%25EC%258A%25A4%25ED%258C%2585-%25ED%2585%258C%25EC%258A%25A4%25ED%258A%25B8-%25ED%2595%25B4%25EB%25B3%25B4%25EA%25B8%25B0.html&media=http://localhost:4000/assets/instacode.png"
+        onclick="window.open(this.href, 'pinterest-share', 'width=550,height=255');return false;">
+        <i class="fa fa-pinterest-square fa-lg"></i>
+      </a>
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('http://localhost:4000/jekyll/2020/07/08/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%95%B4%EB%B3%B4%EA%B8%B0.html') + '&title=블로그 포스팅 테스트 해보기'; return false">
+        <i class="fa fa-reddit-square fa-lg"></i>
+      </a>
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Josh's Study Note</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+				
+	
+	<li class="nav-link"><a href="/about/">About</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/posts/">See All Contents</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:syjoshhwang@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">syjoshhwang@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">공부한 내용들을 정리하기 위해서 만든 블로그입니다.
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+<script src="//unpkg.com/popper.js@1"></script>
+<script src="//unpkg.com/tippy.js@5"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+	// Enable tooltips via Tippy.js
+	if (Array.isArray(window.tooltips)) {
+		window.tooltips.forEach(function(tooltip) {
+			var selector = tooltip[0];
+			var config = tooltip[1];
+			tippy(selector, config);
+		})
+	}
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>

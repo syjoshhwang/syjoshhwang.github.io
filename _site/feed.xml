@@ -6,9 +6,53 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jun 2020 01:21:46 +0900</pubDate>
-    <lastBuildDate>Thu, 18 Jun 2020 01:21:46 +0900</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2020 10:32:19 +0900</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2020 10:32:19 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>지킬 블로그 카테고리 만들기</title>
+        <description>&lt;p&gt;내용 자유롭게 수정해보기&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2020 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/jekyll/2020/07/12/%EC%A7%80%ED%82%AC%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EB%A7%8C%EB%93%A4%EA%B8%B0.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2020/07/12/%EC%A7%80%ED%82%AC%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EB%A7%8C%EB%93%A4%EA%B8%B0.html</guid>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>테스트 1</title>
+        <description>&lt;p&gt;내용 자유롭게 수정해보기&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2020 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/deep-learning/2020/07/12/dummy7.html</link>
+        <guid isPermaLink="true">http://localhost:4000/deep-learning/2020/07/12/dummy7.html</guid>
+        
+        <category>NEW</category>
+        
+        <category>TAG</category>
+        
+        
+        <category>Deep-Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>블로그 포스팅 테스트 해보기</title>
+        <description>&lt;p&gt;This is a test. 블로그의 여러 기능들을 테스트 해보자!&lt;/p&gt; &lt;h2 id=&quot;줄-넣기&quot;&gt;줄 넣기&lt;/h2&gt; &lt;p&gt;줄 넣기는 &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt;를 추가해준다&lt;/p&gt; &lt;hr /&gt; &lt;h2 id=&quot;문단-나눠쓰기&quot;&gt;문단 나눠쓰기&lt;/h2&gt; &lt;p&gt;문단 나눠쓰기는 처음과 끝에 &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;와&lt;code&gt;&amp;lt;/p&amp;gt;&lt;/code&gt;를 추가해준다&lt;/p&gt; &lt;p&gt;블로그 테스트해보기. 블로그...</description>
+        <pubDate>Wed, 08 Jul 2020 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/jekyll/2020/07/08/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%95%B4%EB%B3%B4%EA%B8%B0.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2020/07/08/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%95%B4%EB%B3%B4%EA%B8%B0.html</guid>
+        
+        <category>test</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -59,46 +103,16 @@
       </item>
     
       <item>
-        <title>Dummy Post 6</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
-        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
-        <link>http://localhost:4000/dummy/2015/04/19/dummy6.html</link>
-        <guid isPermaLink="true">http://localhost:4000/dummy/2015/04/19/dummy6.html</guid>
-        
-        <category>lorem</category>
-        
-        <category>ipsum</category>
-        
-        
-        <category>Dummy</category>
-        
-      </item>
-    
-      <item>
         <title>Dummy Post 5</title>
         <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
         <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
-        <link>http://localhost:4000/dummy/2015/04/19/dummy5.html</link>
-        <guid isPermaLink="true">http://localhost:4000/dummy/2015/04/19/dummy5.html</guid>
+        <link>http://localhost:4000/jekyll/2015/04/19/dummy51.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2015/04/19/dummy51.html</guid>
         
         <category>lorem</category>
         
         
-        <category>Dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 4</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
-        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
-        <link>http://localhost:4000/dummy/2015/04/19/dummy4.html</link>
-        <guid isPermaLink="true">http://localhost:4000/dummy/2015/04/19/dummy4.html</guid>
-        
-        <category>ipsum</category>
-        
-        
-        <category>Dummy</category>
+        <category>Jekyll</category>
         
       </item>
     
@@ -106,35 +120,35 @@
         <title>Dummy Post 3</title>
         <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
         <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
-        <link>http://localhost:4000/dummy/2015/04/19/dummy3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/dummy/2015/04/19/dummy3.html</guid>
+        <link>http://localhost:4000/jekyll/2015/04/19/dummy39.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2015/04/19/dummy39.html</guid>
         
         
-        <category>Dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 2</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididn ullamco laboris nisi ut aliquip...</description>
-        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
-        <link>http://localhost:4000/dummy/2015/04/19/dummy2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/dummy/2015/04/19/dummy2.html</guid>
-        
-        
-        <category>Dummy</category>
+        <category>Jekyll</category>
         
       </item>
     
       <item>
-        <title>Dummy Post</title>
+        <title>Dummy Post 3</title>
         <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
         <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
-        <link>http://localhost:4000/dummy/2015/04/19/dummy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/dummy/2015/04/19/dummy.html</guid>
+        <link>http://localhost:4000/jekyll/2015/04/19/dummy38.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2015/04/19/dummy38.html</guid>
         
         
-        <category>Dummy</category>
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 3</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/jekyll/2015/04/19/dummy37.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2015/04/19/dummy37.html</guid>
+        
+        
+        <category>Jekyll</category>
         
       </item>
     
