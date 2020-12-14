@@ -73,7 +73,7 @@ With Tippy.js, you can add tooltips to your text with a little bit of HTML and J
 
 See the [Tippy.js docs](https://atomiks.github.io/tippyjs/) for additional configuration that you can provide for your tooltips.
 
-You can also use a Liquid `include` to import tooltip text or HTML from an external file: 
+You can also use a Liquid `include` to import tooltip text or HTML from an external file:
 
 ```
 window.tooltips.push(['#someOtherId', { content: "{% raw %}{% include tooltips/example.html %}{% endraw %}" }])

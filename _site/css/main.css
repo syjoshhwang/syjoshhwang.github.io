@@ -398,7 +398,7 @@ pre code.hljs {
 *	Body
 */
 .page-content {
-  margin-top: 0px;
+  margin-top: 60px;
   /*
   *	index.html
   */
@@ -675,7 +675,7 @@ pre code.hljs {
   height: 50px;
   list-style: none;
   line-height: 1.5;
-  margin: 0 auto;
+  margin: auto;
   padding: 0;
   display: inline-block; }
 
